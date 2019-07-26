@@ -14,7 +14,7 @@ body{
   background-color: #1c2366;
   color: #D7DCDE;
   margin: 0;
-  text-shadow: 0px 4px 6px black
+  text-shadow: text-shadow: 0px 2px 4px #000
 }
 
 a{
@@ -35,18 +35,10 @@ li{
 }
 
 .banner{
-  /*width: 100vw;*/
   height: 60vh;
-  /*position: relative;*/
-   /*background: rgb(2,0,36);*/
-  /*background: linear-gradient(90deg, rgba(2,0,36,0.7) 0%, rgba(9,9,121,0.5662464815027574) 100%);*/
-  /*background-image: url('images/banner-jch.png');*/
   background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(images/banner-jch.png);
   background-size: cover !important;
-  /*display: flex;*/
   align-items: center;
-  /*justify-content: center;*/
-
 }
 
 .banner-text{
@@ -54,5 +46,21 @@ li{
   margin-left: 10%;
   padding-top: 10%;
   width: 80%;
+}
+
+.white-box{
+  background-color: rgba(153, 223, 232, 0.27);
+  box-shadow: 0px 4px 30px rgba(0,0,0,0.7);
+  padding:30px;
+  width: 75%;
   align-self: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 9px;
+}
+
+.intro p {
+  letter-spacing: 1px;
+  line-height: 25px;
+
 }
