@@ -59,8 +59,23 @@ li{
   border-radius: 9px;
 }
 
-.intro p {
+.white-box p {
   letter-spacing: 1px;
   line-height: 25px;
+}
 
+.social-media{
+  /*display: flex;*/
+  /*justify-content: space-around;*/
+  text-align: center
+}
+
+.social-media li{
+  padding-right: 10px;
+}
+
+.social-media a:hover{
+  font-size: 20px;
+  font-weight: bold;
+  color: #D0EA00;
 }
