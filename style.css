@@ -1,60 +1,60 @@
 h1{
-  font-family: 'Bungee';
+  font-family: 'Changa';
   color: #D0EA00;
-  margin: 0;
   text-shadow: 0px 4px 6px black;
-  font-size: 60px;
- /* position: absolute;
-  top: 30%;
-  left: 10%;*/
+  font-size: 35px;
+  margin-top: 20px;
+  font-weight: bold;
+  letter-spacing: 3px
 }
 
 body{
-  font-family: 'Quicksand';
-  background-color: #1c2366;
-  color: #D7DCDE;
+  font-family: 'Roboto Mono';
+  background-color:#f4f4fb;
+  font-weight: 300;
+  /*#1c2366; morado dark*/
+  color: #1c2366;
   margin: 0;
   text-shadow: text-shadow: 0px 2px 4px #000
 }
 
 a{
-  color: #D7DCDE;
+  color: #1c2366;
   text-decoration: none
 }
-
-a:hover{
-  font-weight: bold
-}
-
-/*ul{
-  list-style: inline-block
-}*/
 
 li{
   display: inline-block
 }
 
-.banner{
-  height: 70vh;
-  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(images/banner-jch.png);
-  background-size: cover !important;
-  align-items: center;
+h4 {
+  font-size: large;
+  font-weight: 300;
+  color: #dbeef6;
 }
 
-.banner-text{
-  margin: 0 auto;
-  margin-left: 10%;
-  padding-top: 10%;
-  width: 80%;
+ul {
+  padding-left: 0;
 }
+
+.banner{
+  /*height: 70vh;*/
+  /*background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(images/banner-jch.png);*/
+  background-size: cover !important;
+  align-items: center;
+  padding: 50px;
+  background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+  background-color: #1c2366;
+}
+
 
 .banner-text a{
   margin: 15px;
 }
 
 .white-box{
-  background-color: rgba(153, 223, 232, 0.27);
-  box-shadow: 0px 4px 30px rgba(0,0,0,0.7);
+  background-color: #cad7d940;
+  box-shadow: 0px 2px 4px #80808057;
   padding:30px;
   width: 75%;
   align-self: center;
@@ -64,13 +64,11 @@ li{
 }
 
 .white-box p {
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   line-height: 25px;
 }
 
 .social-media{
-  /*display: flex;*/
-  /*justify-content: space-around;*/
   text-align: center
 }
 
@@ -79,9 +77,9 @@ li{
 }
 
 a:hover{
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
-  color: #D0EA00;
+  color: #1c2366;
 }
 
 .gif{
@@ -90,24 +88,42 @@ a:hover{
   margin:0 auto;
 }
 
-.card{
+.box{
   border-radius: 9px;
-  background-color: rgba(153, 223, 232, 0.27);
+  background-color: #eaedf3;
   box-shadow: 0px 4px 30px rgba(0,0,0,0.7);
   padding:30px;
   margin: 10px;
-  max-width: 31%;
+  /*max-width: 30%;*/
 }
 
-.card a{
+.box-text{
   margin-top: 10px;
+
+}
+
+.box a{
   text-decoration: none
 }
 
-/*.card a:hover{
-  color: #D0EA00;
-}*/
-
-.cards{
+.boxes{
   margin-bottom: 60px;
+}
+
+
+.my-img {
+  width: 160px;
+}
+
+.footer{
+  background-color: #1c2366;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+}
+
+.footer a{
+  color: #D0EA00;
+  text-decoration: none
 }
