@@ -43,7 +43,7 @@ ul {
   background-size: cover !important;
   align-items: center;
   padding: 50px;
-  background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+  background: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(images/banner-jch.png);
   background-color: #1c2366;
 }
 
