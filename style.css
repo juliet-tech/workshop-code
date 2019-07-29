@@ -73,8 +73,10 @@ ul {
 }
 
 a:hover{
-  font-size: 20px;
-  color: #1c2366;
+  /*font-size: 20px;*/
+  color: #17a2b8;
+  transition: 1s;
+  background-color: #17a2b8
 }
 
 .gif{
